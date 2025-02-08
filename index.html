@@ -4,23 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Online Store</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header, footer { background: #333; color: white; text-align: center; padding: 1em; }
-        nav { background: #444; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; }
-        main { padding: 20px; }
-        section { margin-bottom: 20px; }
-        figure { text-align: center; }
-        img { max-width: 100%; height: auto; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <style>
-        body {
-          background-color:rgba(109, 65, 65, 0.971);
-        }
-        </style>
 
     <header>
         <h1>My Online Store</h1>
@@ -47,13 +33,30 @@
         
         <section id="products">
             <h2>Products</h2>
-            <article>
+
+            <div class="product-card">
                 <figure>
-                    <img src="product.avif" alt="Product Image">
+                    <img src="product.avif" alt="Ford Mustang 2025">
                     <figcaption><b>Ford Mustang 2025 - ₱3,500,000.00</b></figcaption>
                 </figure>
-                <p>High-quality product description.</p>
-            </article>
+                <p>The Mustang GT with the performance exhaust system rips to 60 mph in 4.2 seconds, while the EcoBoost version reaches it in 4.5 seconds.</p>
+            </div>
+
+            <div class="product-card">
+                <figure>
+                    <img src="porsche.jpg" alt="Porsche 911 GT3">
+                    <figcaption><b>Porsche 911 GT3 - ₱6,500,000.00</b></figcaption>
+                </figure>
+                <p>The Porsche 911 offers three petrol engine variants: 2981cc, 3996cc, and 3745cc.</p>
+            </div>
+
+            <div class="product-card">
+                <figure>
+                    <img src="audi.webp" alt="Audi R8">
+                    <figcaption><b>Audi R8 - ₱4,300,000.00</b></figcaption>
+                </figure>
+                <p>The 2023 Audi R8 GT is a mid-engine, rear-wheel-drive, 2-passenger coupe.</p>
+            </div>
         </section>
         
         <section id="promos">
@@ -66,22 +69,18 @@
         
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Reach us out wiht these following contact deatails...</p>
+            <p>Reach us through the following contact details:</p>
             <ul>
-                <li>
-                    Phone Number: 09690252679
-                </li>
-                <li>
-                    Email: <a href="mailto:eeyorejosh50@gmail.com">eeyorejosh50@gmail.com</a>
-                </li>
+                <li><b>Phone:</b> 09690252679</li>
+                <li><b>Email:</b> <a href="mailto:eeyorejosh50@gmail.com">eeyorejosh50@gmail.com</a></li>
             </ul>
         </section>
-    </article>
-</main>
-<hr>
-<footer style="text-align: center;"">
-    <p  style="font-weight: bold;">All Rights Reserved &copy; Eeyore Gwapo</p>
-    <a href="#top" style="text-align: center;">Back to Top</a>
-</footer>
+    </main>
+
+    <footer>
+        <p>All Rights Reserved &copy; Eeyore Gwapo</p>
+        <a href="#top">Back to Top</a>
+    </footer>
+
 </body>
 </html>
